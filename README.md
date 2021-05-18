@@ -1,0 +1,2 @@
+# gitProject
+githabdagi birinchi projectim

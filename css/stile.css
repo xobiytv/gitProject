@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+header .header_top{
+    width: 100%;
+    height: 105px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+.navbar-nav{
+    display: block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+
+}
+.d{
+    display: flex;
+    display: block;
+    flex-direction: column;
+}
+header .header_top ul li a{
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+li{
+    margin: 10px
+}
+/* ==============header_img====================== */
+header .header_img{
+    width: 100%;
+    display: flex;
+}
+header .header_img .img_1{
+    width: 60%;
+    height: 550px;
+    background: url('../img/img1.png')no-repeat center center/cover;
+}
+header .header_img .img_2{
+    width: 35%;
+    height: 610px;
+    margin: 0;
+    padding: 0;
+}
+header .header_h{
+    transform: translateY(-180px) translateX(80px);
+}
+header .header_h h1{
+    font-size: 75px;
+    color: white;
+}
+header .header_h h1 span{
+    font-size: 60px;
+    color: black;
+}
+header .header_inpt{
+   
+   
+    width: 100%;
+    height: 100px;
+    background: black;
+    border: 0 0 5px 0 solid #4e26fd;
+}
+header .header_inpt {
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    transform: translateY(15px)
+
+}
+header .header_inpt  input{
+    padding: 15px 15px 15px 15px;
+}
+header .header_inpt  button{
+    padding: 15px 15px 15px 15px;
+    background: #4e26fd
+}
+
+header .h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+header .rev{
+    display: flex;
+}
+header .row .lessson1 .lesson{
+    width: 28%;
+}
+header .row .lessson2 .lesson{
+    width: 28%;
+}
+
+header .row .lessson3 .lesson{
+    width: 28%;
+}
+
+.p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+.p2{
+    padding: 15px;
+    font-size: 16px
+}
+
+/*==================SECTION================ */
+
+.iki{
+    margin: 40px 0 0 0;
+}
+section{
+    width: 100%;
+}
+.section_text{
+    position: absolute;
+    transform: translateY(-150px) translateX(25px);
+    width: 250px;
+    color: white;
+}
+.section_text p{
+    font-size: 14px;
+    font-weight: 10;
+}
+.section_text h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+ h5{
+    font-weight: bold;
+}
+.section_btn button{
+    width: 170px;
+    height: 50px;
+    background: transparent;
+    border: none;
+    border: 2px solid #4e26fd;
+}
+.section_btn h3{
+    margin: 0;
+    color: var(--cl-b);
+    font-weight: bold;
+}
+
+.lor_img{
+    background: url('../img/future/img.png') no-repeat center center/cover;
+    width: 100%;
+    height: 554px;
+}
+.lor_text{
+    width: 500px;  
+    color: white;
+}
+.lor_text h1{
+    font-size: 60px;
+    color: white;
+}
+.lor h5{
+    font-weight: bold;
+}
+.lor_btn button{
+    width: 170px;
+    height: 50px;
+    background: #4e26fd;
+    border: none;
+
+}
+.lor_btn h3{
+    margin: 0;
+    color: white;
+    font-weight: bold;
+}
+
+/* ================main=============== */
+.bir{
+    margin: 80px;
+    font-size: 100px
+}
+.lef{
+    width: 28%;
+    display: flex;
+}
+.lesson1{
+    margin: 10px
+}
+.p1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+.p2{
+    padding: 15px;
+    font-size: 16px
+}
+
